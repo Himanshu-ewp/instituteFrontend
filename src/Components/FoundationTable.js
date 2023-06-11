@@ -14,69 +14,30 @@ function FoundationTable({ }) {
             <div className='pb-10 pt-5 h-[450p]'>
                 <div className="table-responsive">
                     <table className="table table-bordered  m-auto">
-                        <tbody>
+                        <tbody className='border-2'>
                             <tr>
-                                <th rowspan="2">Class</th>
-                                <th rowspan="2">Course Name</th>
-                                <th rowspan="2">Total Fees</th>
-                                {/* <th colspan="4">Installment  Scheme</th> */}
-                                {/* <th rowspan="2">Course Syllabus</th> */}
+                                <th rowspan="2" className='border-2'>Class</th>
+                                <th rowspan="2" className='border-2'>Total Fees</th>
                             </tr>
                             <tr>
-                                {/* <th>1st Installment</th>
-                                <th>2nd Installment</th>
-                                <th>3rd Installment</th>
-                                <th>Lumpsum</th> */}
+                                <td className="border-2">11th</td>
+                                <td className="border-2">17,000</td>
                             </tr>
                             <tr>
-                                <td className="">11th</td>
-                                <td>School Integrated</td>
-                                <td>17,000</td>
-                                {/* <td>30,000</td>
-                                <td>15,000</td>
-                                <td>15,000</td>
-                                <td>57,000</td> */}
-                                {/* <td><a href="#">Download</a></td> */}
+                                <td className="border-2">12th</td>
+                                <td className="border-2">18,000</td>
                             </tr>
                             <tr>
-                                <td className="">12th</td>
-                                <td>School Integrated</td>
-                                <td>18,000</td>
-                                {/* <td>25,000</td>
-                                <td>15,000</td>
-                                <td>15,000</td>
-                                <td>52,250</td> */}
-                                {/* <td><a href="#">Download</a></td> */}
+                                <td className="border-2">JEE</td>
+                                <td className="border-2">45,000</td>
                             </tr>
                             <tr>
-                                <td className="">JEE</td>
-                                <td>School Integrated</td>
-                                <td>45,000</td>
-                                {/* <td>25,000</td>
-                                <td>15,000</td>
-                                <td>10,000</td>
-                                <td>47,500</td> */}
-                                {/* <td><a href="#">Download</a></td> */}
+                                <td className="border-2">NEET</td>
+                                <td className="border-2">45,000</td>
                             </tr>
                             <tr>
-                                <td className="">NEET</td>
-                                <td>School Integrated</td>
-                                <td>45,000</td>
-                                {/* <td>20,000</td>
-                                <td>10,000</td>
-                                <td>10,000</td>
-                                <td>38,000</td> */}
-                                {/* <td><a href="#">Download</a></td> */}
-                            </tr>
-                            <tr>
-                                <td className="px-20">Polytechnique</td>
-                                <td>School Integrated</td>
-                                <td className='px-20'>25,000</td>
-                                {/* <td>20,000</td>
-                                <td>7,500</td>
-                                <td>7,500</td>
-                                <td>33,250</td> */}
-                                {/* <td><a href="#">Download</a></td> */}
+                                <td className="px-20 border-r-2">Polytechnique</td>
+                                <td className='px-20 border-l-2'>25,000</td>
                             </tr>
                         </tbody>
                     </table>

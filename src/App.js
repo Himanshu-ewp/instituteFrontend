@@ -1,10 +1,9 @@
-import './App.css';
 import Foundation from './Components/Foundation';
 import HomePage from './Components/Homepage';
 
 function App() {
   return (
-    <div className="App">
+    <div className="overflow-x-hidden">
       {/* <HomePage /> */}
       <Foundation/>
     </div>
